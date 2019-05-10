@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55969388f8f8aed7f487fdfc1f0b3d0a",
+    "content-hash": "42323c15e4d1ac8c4dc5ed01e17c74a2",
     "packages": [
         {
             "name": "cosmicvibes/laraseries",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cosmicvibes/laraseries.git",
+                "reference": "ddacf767806f2838424d5ccc18a3592ab3159bea"
+            },
             "dist": {
-                "type": "path",
-                "url": "../packages/cosmicvibes/laraseries",
-                "reference": "0fa556193ef4e7f5bb44a5bfa1717872a2b267d2"
+                "type": "zip",
+                "url": "https://api.github.com/repos/cosmicvibes/laraseries/zipball/ddacf767806f2838424d5ccc18a3592ab3159bea",
+                "reference": "ddacf767806f2838424d5ccc18a3592ab3159bea",
+                "shasum": ""
             },
             "require-dev": {
                 "orchestra/testbench": "^3.9@dev",
@@ -31,21 +37,19 @@
                     "Cosmicvibes\\Laraseries\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Cosmicvibes\\Laraseries\\Test\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Charlie Pearce",
-                    "email": "cjp@cosmicvibes.net"
+                    "email": "cjp@cosmicvibes.net",
+                    "homepage": "https://github.com/cosmicvibes/laraseries"
                 }
             ],
-            "description": "Number series package for Laravel"
+            "description": "Number series package for Laravel",
+            "time": "2019-05-10T11:19:06+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
