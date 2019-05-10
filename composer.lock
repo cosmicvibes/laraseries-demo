@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "862c2c8c4a6054f49170ed0cd688bf59",
+    "content-hash": "55969388f8f8aed7f487fdfc1f0b3d0a",
     "packages": [
+        {
+            "name": "cosmicvibes/laraseries",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../packages/cosmicvibes/laraseries",
+                "reference": "0fa556193ef4e7f5bb44a5bfa1717872a2b267d2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.9@dev",
+                "phpunit/phpunit": "^8.2@dev"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cosmicvibes\\Laraseries\\LaraseriesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cosmicvibes\\Laraseries\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Cosmicvibes\\Laraseries\\Test\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie Pearce",
+                    "email": "cjp@cosmicvibes.net"
+                }
+            ],
+            "description": "Number series package for Laravel"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -4513,7 +4554,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "cosmicvibes/laraseries": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
